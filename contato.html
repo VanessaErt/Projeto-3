@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Vanessa Digital Solutions</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Vanessa Digital Solutions</a>
+            </div>
+            <ul>
+                <li><a href="index.html"></a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="servico.html">Serviços</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+            <div class="menu-icon">
+                <img src="img/menu-icon.png" alt="Menu Icon">
+            </div>
+        </nav>
+
+        <main>
+            <div class="container-contato">
+                <h1>Entre em Contato Conosco</h1>
+                
+                <div class="contact-info">
+                    <h2>Informações de Contato</h2>
+                    <p><strong>Endereço:</strong> Rua Exemplo, 123 - Bairro - Cidade - Estado</p>
+                    <p><strong>Telefone:</strong> (00) 1234-5678</p>
+                    <p><strong>Email:</strong> contato@vanessadigitalsolutions.com</p>
+                </div>
+                
+                <h2>Formulário de Contato</h2>
+                <form id="contact-form" method="post">
+                    <label for="name">Seu Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Seu Email:</label>
+                    <input type="email" id="email-input" name="email" required>
+                    
+                    <label for="message">Sua Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit" id="submit-button">Enviar Mensagem</button>
+
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Vanessa Digital Solutions. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>    
+</body>
+</html>
